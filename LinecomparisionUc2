@@ -30,7 +30,7 @@ public class LinecomparisionUc2 {
 
         
         System.out.println("The first line length is " + length1);
-        System.out.println("The second line length is " + length1);
+        System.out.println("The second line length is " + length2);
 
         
         if(length2 == length1) {

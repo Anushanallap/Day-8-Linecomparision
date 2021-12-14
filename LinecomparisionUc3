@@ -1,0 +1,54 @@
+
+import java.util.Scanner;
+
+public class LinecomparisionUc3 {
+	
+	public static void main(String[] args) {
+		
+        Scanner sc = new Scanner(System.in);
+
+		int x1 = sc.nextInt(); 
+		int y1  = sc.nextInt();
+		int x2 = sc.nextInt();
+		int y2 = sc.nextInt();
+		int x3 = sc.nextInt();
+		int y3 = sc.nextInt();
+		int x4 = sc.nextInt();
+		int y4 = sc.nextInt();
+
+
+        System.out.println("Enter x1,y1 Co-ordinates:");
+        System.out.println("Enter x2,y2 Co-ordinates:");
+        System.out.println("Enter x3,y3 Co-ordinates:");
+        System.out.println("Enter x4,y4 Co-ordinates:");
+
+
+	
+        double length1 = Math.sqrt(Math.pow((x2-x1),2)+ Math.pow((y2-y1),2));
+        double length2 = Math.sqrt(Math.pow((x4-x3),2)+ Math.pow((y4-y3),2));
+
+        
+        System.out.println("The first line length is " + length1);
+        System.out.println("The second line length is " + length2);
+
+        
+        if(length2 == length1) {
+        	System.out.println("line length is equal");
+        	
+        }
+        else if(length1 > length2 ) {
+        	System.out.println("the line length is greater than");
+        	
+        }
+        
+        else{
+        		System.out.println("line length is less than");
+        	}
+ }
+        
+}       
+		 
+	
+
+
+
